@@ -1,9 +1,9 @@
 <?php
     $dataConfig = [
-        'host' => 'server186.hosting.reg.ru',
-        'login' => 'u1096428_founder',
-        'password' => '099661pas',
-        'database' => 'u1096428_limit_mil_project'
+        'host' => '',
+        'login' => '',
+        'password' => '',
+        'database' => ''
     ];
 
     $data = mysqli_connect($dataConfig['host'], $dataConfig['login'], $dataConfig['password'], $dataConfig['database']);
